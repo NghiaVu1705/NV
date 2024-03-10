@@ -29,17 +29,24 @@ prev.addEventListener('click', function (event) {
 
 
 document.getElementById("lienhe").addEventListener("click", function() {
-  window.location.href = "youtube.com"; // Thay thế "lienhe.html" bằng URL thật của trang Liên hệ
+  window.location.href = "https://www.facebook.com/nghia.vu.39589149?mibextid=dGKdO6";
 });
 
 document.getElementById("trangchu").addEventListener("click", function() {
-  window.location.href = "trangchu.html"; // Thay thế "trangchu.html" bằng URL thật của trang Trang chủ
+  window.location.href = "trangchu.html";
 });
 
 document.getElementById("blog").addEventListener("click", function() {
-  window.location.href = "blog.html"; // Thay thế "blog.html" bằng URL thật của trang Blog
+  window.location.href = "space.html";
 });
 
 document.getElementById("sanpham").addEventListener("click", function() {
-  window.location.href = "sanpham.html"; // Thay thế "sanpham.html" bằng URL thật của trang Sản phẩm
+  window.location.href = "sanpham.html"; 
 });
+
+document.getElementById("hinh").addEventListener("click", function() {
+  window.location.href = "space.html";
+});
+
+
+
