@@ -49,4 +49,11 @@ document.getElementById("hinh").addEventListener("click", function() {
 });
 
 
+var signupBtn = document.getElementById("signupBtn");
+
+    // Gắn sự kiện click vào nút "Đăng kí"
+    signupBtn.addEventListener("click", function() {
+        // Chuyển hướng người dùng đến trang "register.html"
+        window.location.href = "register.html";
+    });
 

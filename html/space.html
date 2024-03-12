@@ -29,8 +29,17 @@
                 <button>Đăng nhập</button>
             </div>
             <div class="btn">
-                <button>Đăng kí</button>
+                <button id="signupBtn">Đăng kí</button>
+                <h5>Đăng nhập bằng </h5>
             </div>
+
+            <script>
+                var signupBtn = document.getElementById("signupBtn");
+                signupBtn.addEventListener("click", function() {
+                    window.location.href = "register.html";
+                });
+            </script>
+
             <div class="with">
                 <div class="fb">
                     <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
